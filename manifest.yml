@@ -12,7 +12,7 @@ applications:
   command: npm start
   memory: 512M
   services:
-  - speech-to-text-service
+  - Lab_SpeechToText
   - concept-insights-service
   env:
     NODE_ENV: production
